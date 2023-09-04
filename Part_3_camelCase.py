@@ -15,6 +15,8 @@
 
 # print(f"This is your camelCase sentence: {camel_case_sentence}. Thank you for using our program!")
 
+"""camelCase converter program. """
+
 def camelCase(sentence):
     list_camel_case = sentence.split(' ') #store input in a list.
 
