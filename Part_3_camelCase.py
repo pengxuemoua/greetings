@@ -29,9 +29,14 @@ def camelCase(sentence):
     camel_case_sentence = ''.join(list_camel_case)
     display_message = f"This is your camelCase sentence: {camel_case_sentence}. Thank you for using our program!"
     return display_message
+def banner():
+    """Display program name"""
+    message = "Awesome camelCase program!"
+    stars = '*' * len(message)
+    print(f"\n{stars} \n{message} \n{stars}")
 
 def main():
-    print('Welcome to the camelCase program!')
+    banner()
     sentence = input('Please enter a sentence and our program will turn it into camelCase: ').lower()
     output = camelCase(sentence)
     print(output)
