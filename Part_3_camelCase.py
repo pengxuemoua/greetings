@@ -30,12 +30,13 @@ def camelCase(sentence):
     display_message = f"This is your camelCase sentence: {camel_case_sentence}. Thank you for using our program!"
     return display_message
 def banner():
-    """Display program name"""
+    """Display program name, using stars """
     message = "Awesome camelCase program!"
     stars = '*' * len(message)
     print(f"\n{stars} \n{message} \n{stars}")
 
 def instructions():
+    """Display instructions for how to user the program """
     print('Enter a sentence and this program will convert to camelCase')
 
 def main():
